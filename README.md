@@ -48,12 +48,6 @@ Before you begin, ensure you have met the following requirements:
 
 ### Project Structure
 
-- `src/` - Source code for the Visual Studio chat extension.
-- `docs/` - Documentation and learning resources.
-- `samples/` - Sample extensions and code snippets.
-- `tests/` - Unit tests and test projects.
-- `tools/` - Tools and utilities for extension development.
-
 ```
 visual-studio-chat-extension/
 ├── README.md
@@ -61,8 +55,15 @@ visual-studio-chat-extension/
 ├── docs/
 ├── samples/
 ├── tests/
-└── tools/
+├── tools/
+└── images/
 ```
+
+- `src/` - Source code for the Visual Studio chat extension.
+- `docs/` - Documentation and learning resources.
+- `samples/` - Sample extensions and code snippets.
+- `tests/` - Unit tests and test projects.
+- `tools/` - Tools and utilities for extension development.
 
 ### Contributing
 
