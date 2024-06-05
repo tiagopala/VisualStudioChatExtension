@@ -16,15 +16,6 @@
 		<!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
 		<Buttons>
-			<Button guid="VisualStudioChatExtension" id="MyCommand" priority="0x0100" type="Button">
-				<Parent guid="VisualStudioChatExtension" id="MyMenuGroup" />
-				<Icon guid="ImageCatalogGuid" id="Writeable" />
-				<CommandFlag>IconIsMoniker</CommandFlag>
-				<Strings>
-					<ButtonText>StackSpot AI Chat</ButtonText>
-					<LocCanonicalName>.View.StackSpotAIChat</LocCanonicalName>
-				</Strings>
-			</Button>
 			<Button guid="guidVisualStudioChatExtensionPackageCmdSet" id="cmdidChatToolWindowCommand" priority="0x0100" type="Button">
 				<Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1" />
 				<Icon guid="ImageCatalogGuid" id="Writeable" />
@@ -40,7 +31,6 @@
 	<Symbols>
 		<GuidSymbol name="VisualStudioChatExtension" value="{00e4f3d7-1e3a-4cd3-b039-93b2242dbb04}">
 			<IDSymbol name="MyMenuGroup" value="0x0001" />
-			<IDSymbol name="MyCommand" value="0x0100" />
 		</GuidSymbol>
 
 		<GuidSymbol value="{9aa983d3-c07c-4f94-8451-e788ffb1e16c}" name="guidVisualStudioChatExtensionPackageCmdSet">

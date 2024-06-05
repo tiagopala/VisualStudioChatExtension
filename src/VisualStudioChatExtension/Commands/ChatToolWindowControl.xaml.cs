@@ -7,12 +7,12 @@ namespace VisualStudioChatExtension.Commands
     /// <summary>
     /// Interaction logic for ChatToolWindowControl.
     /// </summary>
-    public partial class ChatToolWindowControl : UserControl
+    public partial class ChatUserControl : UserControl
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ChatToolWindowControl"/> class.
+        /// Initializes a new instance of the <see cref="ChatUserControl"/> class.
         /// </summary>
-        public ChatToolWindowControl()
+        public ChatUserControl()
         {
             this.InitializeComponent();
         }

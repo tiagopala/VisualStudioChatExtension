@@ -13,7 +13,7 @@ namespace VisualStudioChatExtension.Configuration
     [InstalledProductRegistration(Vsix.Name, Vsix.Description, Vsix.Version)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [Guid(PackageGuids.VisualStudioChatExtensionString)]
-    [ProvideToolWindow(typeof(ChatToolWindow))]
+    [ProvideToolWindow(typeof(ChatToolWindowPane))]
     public sealed class VisualStudioChatExtensionPackage : ToolkitPackage
     {
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
